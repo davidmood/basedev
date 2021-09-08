@@ -1,10 +1,10 @@
 @echo off
 color 0c
 echo -
-echo Carcara limpando pasta cache aguarde......
+echo DavDevs limpando pasta cache aguarde......
 echo -
 rd /s /q "cache"
-timeout 5
+timeout 2
 test&cls
 echo ===-------------------------------===
 echo     Essa uma base limpa!!

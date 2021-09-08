@@ -137,7 +137,7 @@ local garages = {
 	[62] = { ['name'] = "Concessionaria", ['payment'] = false, ['public'] = true },
 	[63] = { ['name'] = "Concessionaria", ['payment'] = false, ['perm'] = "conce.permissao" },
 	[64] = { ['name'] = "Concessionaria", ['payment'] = false, ['perm'] = "conce.permissao" },
-	[65] = { ['name'] = "Bicicletario", ['payment'] = true, ['perm'] = "livre" },
+	[65] = { ['name'] = "Super", ['payment'] = true, ['perm'] = "livre" },
 	[66] = { ['name'] = "Colheita", ['payment'] = false, ['perm'] = "livre" },
 	[67] = { ['name'] = "WarArena", ['payment'] = false, ['perm'] = "livre" },
 	[68] = { ['name'] = "DisneyNews", ['payment'] = false, ['perm'] = "disneynews.permissao" },
@@ -539,6 +539,9 @@ local workgarage = {
 		"fixter",
 		"cruiser",
 		"bmx"
+	},
+	["Super"] = {
+		"pfister811"
 	},
 	["Colheita"] = {
 		"tractor2",

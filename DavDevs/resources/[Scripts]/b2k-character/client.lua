@@ -273,6 +273,7 @@ RegisterNUICallback('cDoneSave',function(data,cb)
 
 	SetEntityCoordsNoOffset(PlayerPedId(),-1037.79, -2737.02, 13.78,true,true,true)
 	SetEntityHeading(PlayerPedId(),f(31.90))
+	TriggerEvent("b2k-character:normalSpawn")
 	continuousFadeOutNetwork = false
 
 	for id = 0,255 do

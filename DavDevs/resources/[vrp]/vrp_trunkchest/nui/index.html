@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://kit.fontawesome.com/d5821cdbca.js"></script>
+
+  <title>Inventário Los Anjos</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <input type="hidden" id="items-in">
+    <input type="hidden" id="items-out">
+    <div class="container">
+      <div class="row">
+        <div class="col-offset-md-2 col-md-10 ">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="container-inventory">
+                <div class="content-inventory" id="out"></div>
+              </div>
+              <div id="weight1" class="weight"></div>
+            </div>
+            <div class="col-md-2">
+              <div class="group-buttons">
+                <div class="formgroup">
+                  <label>Quantidade</label>
+                  <input type="number" id="quant" placeholder="ex: 1" />
+                </div>
+                <button class="single in"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                <button class="success mutiple in"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                <button class="success mutiple out"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+                <button class="single out"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="container-inventory">
+                <div class="content-inventory" id="in"></div>
+              </div>
+              <div id="weight2" class="weight"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="js/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="js/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
+<script src="js/ui.js"></script>
+
+</html>
